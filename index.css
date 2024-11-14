@@ -312,7 +312,7 @@ html{
 
 /* responsive ---------------------------- */
 
- @media (max-width: 600px){
+ @media (max-width: 400px){
 
 .item:nth-child(1),
 .item:nth-child(2){
