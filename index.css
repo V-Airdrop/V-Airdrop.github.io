@@ -312,12 +312,126 @@ html{
 
 /* responsive ---------------------------- */
 
- @media (max-width: 800px){
 
+
+
+@media (max-width: 700px){
+
+    .item:nth-child(1),
+    .item:nth-child(2){
+        left:40%;
+        top:-10%;
+         
+        height: 100px;
+        width: 100px;
+        -o-object-fit: contain;
+       
+    }
+    .item:nth-child(3){
+        left:40%;
+        bottom:30%;
+        height: 300px;
+        width: 300px;
+        -o-object-fit: contain;
+        
+    }
+    .item:nth-child(4){
+        left:40%;
+        bottom:30%;
+        height: 300px;
+        width: 300px;
+        -o-object-fit: contain;
+    }
+    .item:nth-child(5){
+        
+        left:40%;
+        bottom:30%;
+        height: 300px;
+        width: 300px;
+        -o-object-fit: contain;
+        
+    }
+    
+    .buttons{
+        top: 77%;
+        left: 50%;
+    }
+    
+    .btn-box .btn{
+        position:relative;
+        font-family: Copperplate, Papyrus, fantasy;
+        height: 65%;
+        font-weight:bolder;
+        font-size:1.2rem;
+        width: 13rem;
+        letter-spacing: .3rem;
+        border-radius: 1.5rem;
+    
+    
+        background:var(--bg-color); 
+        border : .2rem solid var(--main-color);
+        color: var(--main-color);
+    
+        animation:showcontent .6s ease-in-out 1 forwards;  
+        transition: .3s;
+        box-shadow: 10px 10px 20px rgba(10, 0, 0, 0.70);
+       
+        bottom:75%;
+        right:-2%;
+    
+    }
+    
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+ @media (max-width: 375px){
+
+.item .namegrass,
+.item .namedawn,
+.item .name{
+    top:23%;
+   
+}
+
+  
 .item:nth-child(1),
 .item:nth-child(2){
     left:40%;
-    top:-10%;
+    top:5%;
      
     height: 100px;
     width: 100px;
@@ -325,33 +439,33 @@ html{
    
 }
 .item:nth-child(3){
-    left:40%;
+    left:50%;
     bottom:30%;
-    height: 300px;
-    width: 300px;
+    height: 220px;
+    width: 220px;
     -o-object-fit: contain;
     
 }
 .item:nth-child(4){
-    left:40%;
+    left:50%;
     bottom:30%;
-    height: 300px;
-    width: 300px;
+    height: 220px;
+    width: 220px;
     -o-object-fit: contain;
 }
 .item:nth-child(5){
     
-    left:40%;
+    left:50%;
     bottom:30%;
-    height: 300px;
-    width: 300px;
+    height: 220px;
+    width: 220px;
     -o-object-fit: contain;
     
 }
 
 .buttons{
-    top: 77%;
-    left: 50%;
+    top: 72%;
+    left: 56%;
 }
 
 .btn-box .btn{
@@ -373,9 +487,12 @@ html{
     transition: .3s;
     box-shadow: 10px 10px 20px rgba(10, 0, 0, 0.70);
    
-    bottom:75%;
+    top:-120%;
     right:-2%;
 
 }
 
  }
+
+
+
